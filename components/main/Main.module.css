@@ -1,4 +1,4 @@
 .container {
-  height: 100vh;
-  background-size: cover;
+  /* background-color: blue; */
+  background-image: url('./public/sfondo-principale2.jpg');
 }
