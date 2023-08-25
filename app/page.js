@@ -2,7 +2,7 @@ import Navbar from '@/components/header/Navbar';
 import Footer from '@/components/footer/Footer';
 import { Fragment } from 'react';
 import classes from './page.module.css';
-import Main from '@/components/main/Main';
+import Hero from '@/components/main/Hero';
 export default function Home() {
   return (
     <Fragment>
@@ -10,7 +10,7 @@ export default function Home() {
         <Navbar />
       </header>
       <main>
-        <Main />
+        <Hero />
       </main>
       <footer className={classes.footer}>
         <Footer />
