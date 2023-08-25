@@ -1,0 +1,18 @@
+.navbar {
+  padding: 20px;
+  /* background-color: blue; */
+}
+.list {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.item {
+  font-size: 2rem;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+.item:hover {
+  text-decoration: underline;
+}
