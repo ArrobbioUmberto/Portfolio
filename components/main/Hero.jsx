@@ -1,7 +1,7 @@
 'use client';
 import React, { Fragment } from 'react';
 import classes from './Hero.module.css';
-import Presentation from './Presentation';
+
 // import trace from './componets/main/Main.module.css';
 function Hero() {
   return (
@@ -11,7 +11,6 @@ function Hero() {
           Hero sfondo con mega scritta sopra bianca
         </h1>
       </div>
-      <Presentation />
     </Fragment>
   );
 }
