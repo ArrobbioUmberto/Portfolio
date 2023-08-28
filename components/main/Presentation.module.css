@@ -1,6 +1,6 @@
 .container {
   margin: 0 auto;
-  background-color: rgb(177, 185, 188);
+  background: linear-gradient(black, gray);
 }
 .row {
   display: flex;
@@ -29,8 +29,11 @@
   justify-content: center;
 }
 .title,
-.subtitle {
+.subtitle,
+.text {
   text-align: center;
+  color: white;
+  padding: 10px 0;
 }
 .title {
   font-weight: bolder;
@@ -44,4 +47,6 @@
   line-height: 2rem;
   font-size: 1.2rem;
   padding: 1.3rem 2rem;
+  color: white;
+  font-style: italic;
 }
