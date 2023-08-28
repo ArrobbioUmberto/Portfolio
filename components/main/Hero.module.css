@@ -1,7 +1,7 @@
 .container {
   height: 100vh;
   background-color: blue;
-  background-image: url('../../public/pino.jpg');
+  background-image: url('../../public/images/sfondo.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
