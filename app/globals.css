@@ -10,3 +10,6 @@ li {
 a {
   text-decoration: none;
 }
+::-webkit-scrollbar {
+  width: 0;
+}

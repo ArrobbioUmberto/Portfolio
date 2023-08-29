@@ -9,19 +9,27 @@ import LogoLanguage from '@/components/main/LogoLanguage';
 
 export default function Home() {
   return (
-    <Fragment>
-      <header className={classes.header}>
-        <Navbar />
-      </header>
+    <div className={classes.container}>
+      <section className={classes.section}>
+        <header className={classes.header}>
+          <Navbar />
+          <Hero />
+        </header>
+      </section>
       <main>
-        <Hero />
-        <Presentation />
-        <LogoLanguage />
-        <Carousel />
+        <section className={classes.section}>
+          <Presentation />
+          <LogoLanguage />
+        </section>
+        <section className={classes.section}>
+          <Carousel />
+        </section>
       </main>
-      <footer className={classes.footer}>
-        <Footer />
-      </footer>
-    </Fragment>
+      <section className={classes.section}>
+        <footer className={classes.footer}>
+          <Footer />
+        </footer>
+      </section>
+    </div>
   );
 }
