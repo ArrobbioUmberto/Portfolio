@@ -10,8 +10,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100vw;
-  padding: 2rem 0;
+  max-width: 100vw;
+  height: 10vh;
 }
 .wrapper {
   display: flex;
@@ -19,7 +19,7 @@
   gap: 20px;
   position: relative;
   width: 80vw;
-  height: 10vh;
+  height: 100%;
   overflow-x: hidden;
 }
 .slide {
@@ -29,15 +29,16 @@
   left: 0%;
   top: 0%;
   display: flex;
+  gap: 20px;
   align-items: center;
   justify-content: space-around;
 }
 
 .slide_primary {
-  animation: primary 14s linear infinite;
+  animation: primary 55s linear infinite;
 }
 .slide_secondary {
-  animation: continue 14s linear infinite;
+  animation: continue 55s linear infinite;
 }
 .logo-img {
   width: 80px;

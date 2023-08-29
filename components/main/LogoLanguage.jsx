@@ -3,44 +3,59 @@ import './LogoLanguage.style.css';
 function LogoLanguage() {
   const logos = [
     {
-      name: 'ciao',
+      name: 'bootstrap',
       id: 1,
       src: '/languages/bootstrap.svg',
     },
     {
-      name: 'ciao',
+      name: 'css',
       id: 2,
       src: '/languages/css3.svg',
     },
     {
-      name: 'ciao',
+      name: 'html',
       id: 3,
       src: '/languages/html5.svg',
     },
     {
-      name: 'ciao',
+      name: 'js',
       id: 4,
       src: '/languages/js.svg',
     },
     {
-      name: 'ciao',
+      name: 'laravel',
       id: 5,
       src: '/languages/laravel.svg',
     },
     {
-      name: 'ciao',
+      name: 'php',
       id: 6,
       src: '/languages/php-logo.svg',
     },
     {
-      name: 'ciao',
+      name: 'sass',
       id: 7,
       src: '/languages/sass.svg',
     },
     {
-      name: 'ciao',
+      name: 'vuejs',
       id: 8,
       src: '/languages/vuejs.svg',
+    },
+    {
+      name: 'react',
+      id: 9,
+      src: '/languages/react.svg',
+    },
+    {
+      name: 'mongodb',
+      id: 10,
+      src: '/languages/mongodb.svg',
+    },
+    {
+      name: 'nextjs',
+      id: 11,
+      src: '/languages/nextjs.svg',
     },
   ];
   return (
