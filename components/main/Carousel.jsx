@@ -7,38 +7,33 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {
-  faCircleArrowRight,
-  faCircleArrowLeft,
-} from '@fortawesome/free-solid-svg-icons';
 import { Autoplay, EffectCoverflow, Navigation } from 'swiper/modules';
 function Try() {
   const images = [
     {
-      title: 'ciao',
+      title: 'boolflix',
       id: 1,
       img: '/progetti/boolflix-pic.png',
     },
     {
-      title: 'ciao',
+      title: 'whatsapp',
       id: 2,
       img: '/progetti/whatsapp.png',
     },
     {
-      title: 'ciao',
+      title: 'spotify',
       id: 3,
       img: '/progetti/spotify-pic.png',
     },
     {
-      title: 'ciao',
+      title: 'boolbnb',
       id: 4,
-      img: '/progetti/whatsapp.png',
+      img: '/progetti/boolbnb.png',
     },
     {
-      title: 'ciao',
+      title: 'dc-comics',
       id: 5,
-      img: '/progetti/boolflix-pic.png',
+      img: '/progetti/dc-comics-pic.png',
     },
     {
       title: 'ciao',
@@ -58,6 +53,7 @@ function Try() {
   ];
   return (
     <>
+      <h1 className='title'>Ecco alcuni dei miei progetti </h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}
@@ -79,7 +75,7 @@ function Try() {
         modules={[Autoplay, EffectCoverflow, Navigation]}
         className='mySwiper'
       >
-        {images.map((item, index) => (
+        {images.map((item) => (
           <SwiperSlide>
             <img src={item.img} alt='foto' key={item.id} cl />
           </SwiperSlide>

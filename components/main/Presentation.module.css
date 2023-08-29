@@ -3,17 +3,21 @@
   background: linear-gradient(black, gray);
 }
 .row {
+  height: 90vh;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  align-items: center;
 }
 .col_6 {
+  align-items: center;
   display: flex;
   flex-basis: 60%;
   padding: 40px 0;
   justify-content: center;
 }
 .col_4 {
+  align-items: center;
   display: flex;
   flex-basis: 40%;
   padding: 40px 0;
