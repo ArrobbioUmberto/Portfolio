@@ -1,10 +1,16 @@
 .row {
   display: flex;
+  height: 70vh;
 }
-.col {
+.col_40 {
   display: flex;
-  flex-basis: 30%;
+  flex-basis: 40%;
   background-color: green;
+}
+.col_60 {
+  display: flex;
+  flex-basis: 60%;
+  background-color: blue;
 }
 .list {
   display: flex;
