@@ -12,7 +12,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href={'/'} className={classes.item}>
+          <Link href={'/portfolio'} className={classes.item}>
             Portfolio
           </Link>
         </li>

@@ -1,17 +1,15 @@
 .row {
   display: flex;
-  height: 70vh;
+  justify-content: space-around;
+  height: 10vh;
+  background: linear-gradient(black, gray);
 }
 .col_40 {
   display: flex;
   flex-basis: 40%;
-  background-color: green;
+  /* background-color: green; */
 }
-.col_60 {
-  display: flex;
-  flex-basis: 60%;
-  background-color: blue;
-}
+
 .list {
   display: flex;
   flex-direction: column;

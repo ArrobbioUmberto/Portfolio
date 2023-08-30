@@ -2,6 +2,7 @@
 import React from 'react';
 import classes from './Footer.module.css';
 import Link from 'next/link';
+
 function Footer() {
   return (
     <div className={classes.row}>
@@ -22,9 +23,7 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <div className={classes.col_60}>
-        <h1>FORM CON POSSIBILITÀ INVIO MESSAGGIO ALLA MIA MAIL PERSONALE</h1>
-      </div>
+      <div className={classes.col_40}></div>
     </div>
   );
 }
