@@ -1,7 +1,12 @@
 'use client';
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import classes from './Footer.module.css';
 import Link from 'next/link';
+import Image from 'next/image';
+
+import linkedin from '../../public/social/linkedin.svg';
+import google from '../../public/social/google-mail-new.svg';
+import github from '../../public/social/github.svg';
 
 function Footer() {
   return (
@@ -23,7 +28,13 @@ function Footer() {
           </li>
         </ul>
       </div>
-      <div className={classes.col_40}></div>
+      <div className={classes.col_40}>
+        <Image src={linkedin} alt='linkedin' className={classes.linkedin} />
+
+        <Image src={google} alt='google' className={classes.google} />
+
+        <Image src={github} alt='github' className={classes.github} />
+      </div>
     </div>
   );
 }
