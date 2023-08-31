@@ -1,6 +1,5 @@
 import Navbar from '@/components/header/Navbar';
 import Footer from '@/components/footer/Footer';
-import { Fragment } from 'react';
 import classes from './page.module.css';
 import Hero from '@/components/main/Hero';
 import Presentation from '@/components/main/Presentation';
@@ -25,7 +24,7 @@ export default function Home() {
           <Carousel />
         </section>
       </main>
-      <section className={classes.section}>
+      <section className={classes.section} id='contatti'>
         <footer className={classes.footer}>
           <Footer />
         </footer>
