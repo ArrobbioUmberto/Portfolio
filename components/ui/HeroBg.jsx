@@ -28,20 +28,19 @@ function HeroBg() {
   }, [currentIndex, isLoaded, text.length]);
   return (
     <>
-      {isLoaded ? (
-        <div className={classes.container}>
-          <div className={classes.title}>
-            {text.slice(0, currentIndex).map((line, index) => (
-              <span key={index} className={classes.animation}>
-                {line}
-                <br />
-              </span>
-            ))}
-          </div>
+      {/* {isLoaded ? ( */}
+      <div className={classes.container}>
+        <div className={classes.title}>
+          {text.slice(0, currentIndex).map((line, index) => (
+            <span key={index} className={classes.animation}>
+              {line}
+              <br />
+            </span>
+          ))}
         </div>
-      ) : (
-        <HeroLoading />
-      )}
+      </div>
+      {/* // ) : ( // <HeroLoading />
+      // )} */}
     </>
   );
 }
