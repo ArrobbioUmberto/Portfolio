@@ -1,16 +1,19 @@
+.Nav_container {
+  backdrop-filter: blur(5px);
+}
 .navbar {
   padding: 20px;
   height: 10vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-color: blue; */
 }
 .list {
   display: flex;
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  z-index: 2;
 }
 .item {
   font-size: 2rem;
