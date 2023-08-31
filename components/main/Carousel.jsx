@@ -76,8 +76,8 @@ function Try() {
         className='mySwiper'
       >
         {images.map((item) => (
-          <SwiperSlide>
-            <img src={item.img} alt='foto' key={item.id} cl />
+          <SwiperSlide key={item.id}>
+            <img src={item.img} alt='foto' />
           </SwiperSlide>
         ))}
       </Swiper>
