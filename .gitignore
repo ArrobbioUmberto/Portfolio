@@ -34,9 +34,9 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-progetti
+.progetti
 coding.mp4
 umberto-arrobbio-cv.pdf
-images
-languages
-social
+.images
+.languages
+.social
