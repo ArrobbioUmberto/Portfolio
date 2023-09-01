@@ -1,10 +1,10 @@
 import Navbar from '@/components/header/Navbar';
 import Footer from '@/components/footer/Footer';
 import classes from './page.module.css';
-import Hero from '@/components/main/Hero';
-import Presentation from '@/components/main/Presentation';
-import Carousel from '@/components/main/Carousel';
-import LogoLanguage from '@/components/main/LogoLanguage';
+import Hero from '@/components/home/main/Hero';
+import Presentation from '@/components/home/main/Presentation';
+import Carousel from '@/components/home/main/Carousel';
+import LogoLanguage from '@/components/home/main/LogoLanguage';
 
 export default function Home() {
   return (
