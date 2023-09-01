@@ -2,7 +2,7 @@
 import React, { Fragment } from 'react';
 import Image from 'next/image';
 import classes from './Presentation.module.css';
-import CV from '../../public/images/foto-cv-linkedin.jpg';
+import CV from '../../../public/images/foto-cv-linkedin.jpg';
 function Presentation() {
   return (
     <Fragment>
