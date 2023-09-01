@@ -1,0 +1,18 @@
+.img {
+  border: 1px solid black;
+  border-radius: 25px;
+  width: 800px;
+  height: 400px;
+}
+.prevButton {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0, -50%);
+}
+.nextButton {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0, -50%);
+}
