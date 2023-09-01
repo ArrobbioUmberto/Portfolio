@@ -1,0 +1,18 @@
+.row {
+  display: flex;
+  align-items: center;
+  max-width: 80%;
+  margin: 3rem auto;
+  flex-direction: row;
+  gap: 3rem;
+}
+.col_50 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-basis: 50%;
+}
+.container_img {
+  position: relative;
+}
