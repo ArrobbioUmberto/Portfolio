@@ -1,12 +1,12 @@
 'use client';
 import React from 'react';
 import classes from './Video.module.css';
-import filmato from '../../../app/videos/video.mp4';
+// import filmato from '../../../public/videos/coding.mp4';
 function Video() {
   return (
-    <div>
-      <video className={classes.video} src={filmato} autoPlay loop></video>
-    </div>
+    <video className={classes.video} autoPlay muted loop>
+      <source src='/videos/coding.mp4' type='video/mp4' alt='il video' />
+    </video>
   );
 }
 
