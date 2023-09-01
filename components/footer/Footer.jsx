@@ -38,7 +38,12 @@ function Footer() {
       </div>
       <div className={classes.col_40}>
         {link.map((item) => (
-          <a href={item.http} target='_blank' className={classes.link}>
+          <a
+            href={item.http}
+            key={item.id}
+            target='_blank'
+            className={classes.link}
+          >
             <img
               src={item.src}
               alt={item.name}
