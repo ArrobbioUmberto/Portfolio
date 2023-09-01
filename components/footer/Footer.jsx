@@ -1,39 +1,56 @@
 'use client';
 import React, { useEffect, useRef } from 'react';
 import classes from './Footer.module.css';
-import Link from 'next/link';
-import Image from 'next/image';
-
-import linkedin from '../../public/social/linkedin.svg';
-import google from '../../public/social/google-mail-new.svg';
-import github from '../../public/social/github.svg';
 
 function Footer() {
+  const link = [
+    {
+      id: 1,
+      name: 'linkedin',
+      src: '/social/linkedin.svg',
+      http: 'https://www.linkedin.com/in/umberto-arrobbio-413434215/',
+    },
+    {
+      id: 2,
+      name: 'curricula',
+      src: '/social/cv2.svg',
+      http: '/umberto-arrobbio-cv.pdf',
+    },
+    {
+      id: 3,
+      name: 'github',
+      src: '/social/github.svg',
+      http: 'https://github.com/ArrobbioUmberto',
+    },
+    {
+      id: 4,
+      name: 'google',
+      src: '/social/google-mail-new.svg',
+      http: 'mailto:arrobbio.umberto@gmail.com',
+    },
+  ];
   return (
     <div className={classes.row}>
       <div className={classes.col_40}>
-        <h1>
-          SEZIONE CON CONTATTI, CV(SCARICABILE), ATTESTATI(VISUALIZZABILE),
-          SOCIAL(LOGHI CLICCABILI)
-        </h1>
-        <ul className={classes.list}>
-          <li className={classes.item}>
-            <Link href={'./'}>Chi sono....</Link>
-          </li>
-          <li className={classes.item}>
-            <Link href={'./'}>Dove vivo</Link>
-          </li>
-          <li className={classes.item}>
-            <Link href={'./'}>Tecnologie</Link>
-          </li>
-        </ul>
+        <h1>2023 - Made with</h1>
+        <img src='/images/heart.svg' alt='cuore' className={classes.heart} />
+        <h1> by Umberto Arrobbio</h1>
       </div>
       <div className={classes.col_40}>
-        <Image src={linkedin} alt='linkedin' className={classes.linkedin} />
+        {link.map((item) => (
+          <a href={item.http} target='_blank' className={classes.link}>
+            <img
+              src={item.src}
+              alt={item.name}
+              className={classes[item.name]}
+            />
+          </a>
+        ))}
 
-        <Image src={google} alt='google' className={classes.google} />
+        {/* <Image src={google} alt='google' className={classes.google} />
 
         <Image src={github} alt='github' className={classes.github} />
+        <Image src={curricula} alt='curricula' className={classes.curricula} /> */}
       </div>
     </div>
   );
