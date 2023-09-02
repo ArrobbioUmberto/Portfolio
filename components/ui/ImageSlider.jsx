@@ -20,10 +20,10 @@ function ImageSlider(props) {
     <>
       <img src={images[currentIndex]} alt='ciao' className={classes.img} />
       <button onClick={prevImage} className={classes.prevButton}>
-        PREV
+        <img src='/images/arrow-prev.svg' className={classes.prevButton} />
       </button>
-      <button onClick={nextImage} className={classes.nextButton}>
-        NEXT
+      <button onClick={nextImage}>
+        <img src='/images/arrow-next.svg' className={classes.nextButton} />
       </button>
     </>
   );
