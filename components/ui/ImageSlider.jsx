@@ -6,14 +6,14 @@ function ImageSlider(props) {
   const prevImage = () => {
     console.log('prev');
     setCurrentIndex((prevIndex) =>
-      prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
     );
     // console.log(currentIndex);
   };
   const nextImage = () => {
     console.log('next');
     setCurrentIndex((prevIndex) =>
-      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+      prevIndex === images.length - 1 ? 0 : prevIndex + 1
     );
   };
   return (
