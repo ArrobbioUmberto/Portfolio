@@ -12,6 +12,15 @@ function Card(props) {
         <div className={classes.col_35}>
           <h1 className={classes.title}> {project.name}</h1>
           <p className={classes.description}>{project.description}</p>
+          {/* <div className={classes.logos}>
+            {project.keys(props).map(
+              photo(
+                <>
+                  <img src={photo.logo} alt='logo' />
+                </>
+              )
+            )}
+          </div> */}
         </div>
       </div>
     </>

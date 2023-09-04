@@ -8,45 +8,80 @@ function CardFolder() {
       name: 'whatsapp',
       link: 'https://github.com/ArrobbioUmberto',
       img: ['/progetti/mono/whatsapp.png'],
+      logo: [
+        '/languages/bootstrap.svg',
+        '/languages/css3.svg',
+        '/languages/html5.svg',
+        '/languages/js.svg',
+        '/languages/vuejs.svg',
+      ],
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat saepe tempora praesentium earum, similique nobis laudantium sint deleniti animi? Quos maxime veniam voluptatibus neque. Ut architecto beatae similique provident, dolor earum unde delectus sunt nihil facere debitis, eveniet eos? Harum quibusdam praesentium aliquam, est, at quidem veniam explicabo tempore quod magnam rem quisquam enim iure repudiandae, vero error amet? Fugit labore rem consequatur tempora minima atque porro. Perferendis exercitationem placeat dignissimos nihil iure eaque provident nostrum recusandae eligendi sint! Consectetur, repudiandae dicta asperiores explicabo unde dignissimos illum excepturi recusandae tenetur iure culpa aspernatur ab. Dolore accusantium minus perspiciatis non.',
+        "Ho ricreato la web app di messaggistica istantanea WhatsApp. Grazie all'uso di HTML, CSS e Vue, ho creato un'applicazione efficiente con un'interfaccia semplice ed intuitiva. ",
     },
     {
       id: 2,
       name: 'DC comics',
       link: 'https://github.com/ArrobbioUmberto',
+      logo: [
+        '/languages/bootstrap.svg',
+        '/languages/css3.svg',
+        '/languages/html5.svg',
+        '/languages/js.svg',
+        '/languages/vuejs.svg',
+      ],
       img: [
         '/progetti/dc-comics/dc-comics-1.png',
         '/progetti/dc-comics/dc-comics-2.png',
         '/progetti/dc-comics/dc-comics-3.png',
       ],
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat saepe tempora praesentium earum, similique nobis laudantium sint deleniti animi? Quos maxime veniam voluptatibus neque. Ut architecto beatae similique provident, dolor earum unde delectus sunt nihil facere debitis, eveniet eos? Harum quibusdam praesentium aliquam, est, at quidem veniam explicabo tempore quod magnam rem quisquam enim iure repudiandae, vero error amet? Fugit labore rem consequatur tempora minima atque porro. Perferendis exercitationem placeat dignissimos nihil iure eaque provident nostrum recusandae eligendi sint! Consectetur, repudiandae dicta asperiores explicabo unde dignissimos illum excepturi recusandae tenetur iure culpa aspernatur ab. Dolore accusantium minus perspiciatis non.',
+        'I supereroi sono sempre stati una mia grande passione e come progetto ho voluto replicare il sito DC Comics e in particolare la sua homepage. Questo applicativo utilizza HTML,CSS,Vue e Vite. ',
     },
     {
       id: 3,
       name: 'boolflix',
       link: 'https://github.com/ArrobbioUmberto',
+      logo: [
+        '/languages/bootstrap.svg',
+        '/languages/css3.svg',
+        '/languages/html5.svg',
+        '/languages/js.svg',
+        '/languages/vuejs.svg',
+      ],
       img: [
         '/progetti/boolflix/boolflix-1.png',
         '/progetti/boolflix/boolflix-2.png',
         '/progetti/boolflix/boolflix-3.png',
       ],
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat saepe tempora praesentium earum, similique nobis laudantium sint deleniti animi? Quos maxime veniam voluptatibus neque. Ut architecto beatae similique provident, dolor earum unde delectus sunt nihil facere debitis, eveniet eos? Harum quibusdam praesentium aliquam, est, at quidem veniam explicabo tempore quod magnam rem quisquam enim iure repudiandae, vero error amet? Fugit labore rem consequatur tempora minima atque porro. Perferendis exercitationem placeat dignissimos nihil iure eaque provident nostrum recusandae eligendi sint! Consectetur, repudiandae dicta asperiores explicabo unde dignissimos illum excepturi recusandae tenetur iure culpa aspernatur ab. Dolore accusantium minus perspiciatis non.',
+        "Boolflix è il fratello minore della più nota piattaforma dalla grande N. Questo compito mi ha permesso di sviluppare un applicativo che interagisse con un'API di Film e Serie TV tramite delle funzioni async.",
     },
     {
       id: 4,
       name: 'spotify',
       link: 'https://github.com/ArrobbioUmberto',
+      logo: [
+        '/languages/bootstrap.svg',
+        '/languages/css3.svg',
+        '/languages/html5.svg',
+        '/languages/js.svg',
+        '/languages/vuejs.svg',
+      ],
       img: ['/progetti/mono/spotify-pic.png'],
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat saepe tempora praesentium earum, similique nobis laudantium sint deleniti animi? Quos maxime veniam voluptatibus neque. Ut architecto beatae similique provident, dolor earum unde delectus sunt nihil facere debitis, eveniet eos? Harum quibusdam praesentium aliquam, est, at quidem veniam explicabo tempore quod magnam rem quisquam enim iure repudiandae, vero error amet? Fugit labore rem consequatur tempora minima atque porro. Perferendis exercitationem placeat dignissimos nihil iure eaque provident nostrum recusandae eligendi sint! Consectetur, repudiandae dicta asperiores explicabo unde dignissimos illum excepturi recusandae tenetur iure culpa aspernatur ab. Dolore accusantium minus perspiciatis non.',
+        "In questo caso ho sviluppato un'applicazione full-screen molto simile a quella di Spotify. Ricreare il medesimo layout e la sua interfaccia è stato uno dei primi progetti che mi ha permesso di mettere in campo le conoscenze che avevo in quel momento in un unico progetto.",
     },
     {
       id: 5,
       name: 'everlead',
       link: 'https://github.com/ArrobbioUmberto',
+      logo: [
+        '/languages/bootstrap.svg',
+        '/languages/css3.svg',
+        '/languages/html5.svg',
+        '/languages/js.svg',
+        '/languages/vuejs.svg',
+      ],
       img: [
         '/progetti/everlead/everlead-1.png',
         '/progetti/everlead/everlead-2.png',
@@ -59,12 +94,19 @@ function CardFolder() {
         '/progetti/everlead/everlead-9.png',
       ],
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat saepe tempora praesentium earum, similique nobis laudantium sint deleniti animi? Quos maxime veniam voluptatibus neque. Ut architecto beatae similique provident, dolor earum unde delectus sunt nihil facere debitis, eveniet eos? Harum quibusdam praesentium aliquam, est, at quidem veniam explicabo tempore quod magnam rem quisquam enim iure repudiandae, vero error amet? Fugit labore rem consequatur tempora minima atque porro. Perferendis exercitationem placeat dignissimos nihil iure eaque provident nostrum recusandae eligendi sint! Consectetur, repudiandae dicta asperiores explicabo unde dignissimos illum excepturi recusandae tenetur iure culpa aspernatur ab. Dolore accusantium minus perspiciatis non.',
+        'Everlead è stata una delle prime sfide che ho dovuto affrontare completamente da solo. Infatti, durante questo progetto della durata di una settimana, mi sono trovato a gestire autonomamente un progetto basato su un design fornito casualmente tramite Figma. Questa esperienza mi ha permesso di sviluppare ulteriormente le mie competenze e acquisire una maggiore indipendenza nel lavoro di sviluppo. ',
     },
     {
       id: 6,
       name: 'boolbnb',
       link: 'https://github.com/ArrobbioUmberto',
+      logo: [
+        '/languages/bootstrap.svg',
+        '/languages/css3.svg',
+        '/languages/html5.svg',
+        '/languages/js.svg',
+        '/languages/vuejs.svg',
+      ],
       img: [
         '/progetti/boolbnb/boolbnb-1.png',
         '/progetti/boolbnb/boolbnb-2.',
@@ -89,7 +131,7 @@ function CardFolder() {
         '/progetti/boolbnb/boolbnb-21.',
       ],
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa quaerat saepe tempora praesentium earum, similique nobis laudantium sint deleniti animi? Quos maxime veniam voluptatibus neque. Ut architecto beatae similique provident, dolor earum unde delectus sunt nihil facere debitis, eveniet eos? Harum quibusdam praesentium aliquam, est, at quidem veniam explicabo tempore quod magnam rem quisquam enim iure repudiandae, vero error amet? Fugit labore rem consequatur tempora minima atque porro. Perferendis exercitationem placeat dignissimos nihil iure eaque provident nostrum recusandae eligendi sint! Consectetur, repudiandae dicta asperiores explicabo unde dignissimos illum excepturi recusandae tenetur iure culpa aspernatur ab. Dolore accusantium minus perspiciatis non.',
+        "La ciliegina sulla torta del mio percorso in Boolean è stata senza dubbio questo progetto finale. Grazie a questa esperienza, ho potuto approfondire la mia comprensione su come strutturare una web app dal punto di vista di un full stack web developer. Inoltre, ho avuto l'opportunità di sperimentare la modalità agile, il confronto quotidiano con il mio team e l'organizzazione di task e scadenze.In questo progetto, abbiamo implementato con successo l'API di TomTom per la localizzazione dei vari appartamenti, consentendo anche una ricerca istantanea di indirizzi e città.",
     },
   ];
   return (

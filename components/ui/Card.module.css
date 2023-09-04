@@ -4,7 +4,7 @@
   max-width: 80%;
   margin: 3rem auto;
   flex-direction: row;
-  gap: 3rem;
+  gap: 6rem;
 }
 .col_65 {
   display: flex;
@@ -30,6 +30,7 @@
   text-transform: capitalize;
 }
 .description {
+  text-align: center;
   color: white;
   font-size: 1rem;
 }
