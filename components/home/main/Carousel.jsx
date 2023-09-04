@@ -67,7 +67,9 @@ function Try() {
       >
         {images.map((item) => (
           <SwiperSlide key={item.id}>
-            <img src={item.img} alt='foto' />
+            <a href='/portfolio'>
+              <img src={item.img} alt='foto' />
+            </a>
           </SwiperSlide>
         ))}
       </Swiper>
