@@ -12,7 +12,9 @@
   width: 32em;
   text-align: center;
   margin: 8rem auto;
-  color: white;
+  color: black;
+  text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
+
   font-size: 3.5rem;
   font-weight: bolder;
 }
