@@ -11,44 +11,34 @@ import { Autoplay, EffectCoverflow, Navigation } from 'swiper/modules';
 function Try() {
   const images = [
     {
-      title: 'boolflix',
+      title: 'boolbnb',
       id: 1,
-      img: '/progetti/boolflix-pic.png',
+      img: '/progetti/boolbnb/boolbnb-1.png',
     },
     {
       title: 'whatsapp',
       id: 2,
-      img: '/progetti/whatsapp.png',
+      img: '/progetti/mono/whatsapp.png',
     },
     {
       title: 'spotify',
       id: 3,
-      img: '/progetti/spotify-pic.png',
+      img: '/progetti/mono/spotify-pic.png',
     },
     {
-      title: 'boolbnb',
+      title: 'boolflix',
       id: 4,
-      img: '/progetti/boolbnb.png',
+      img: '/progetti/boolflix/boolflix-1.png',
     },
     {
       title: 'dc-comics',
       id: 5,
-      img: '/progetti/dc-comics-pic.png',
+      img: '/progetti/dc-comics/dc-comics-1.png',
     },
     {
-      title: 'ciao',
+      title: 'everlead',
       id: 6,
-      img: '/progetti/whatsapp.png',
-    },
-    {
-      title: 'ciao',
-      id: 7,
-      img: '/progetti/spotify-pic.png',
-    },
-    {
-      title: 'ciao',
-      id: 8,
-      img: '/progetti/whatsapp.png',
+      img: '/progetti/everlead/everlead-1.png',
     },
   ];
   return (

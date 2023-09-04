@@ -6,10 +6,10 @@ function Card(props) {
   return (
     <>
       <div className={classes.row}>
-        <div className={`${classes.col_50} ${classes.container_img}`}>
+        <div className={`${classes.col_65} ${classes.container_img}`}>
           <ImageSlider images={project.img} />
         </div>
-        <div className={classes.col_50}>
+        <div className={classes.col_35}>
           <h1 className={classes.title}> {project.name}</h1>
           <p className={classes.description}>{project.description}</p>
         </div>

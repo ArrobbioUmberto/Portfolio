@@ -10,9 +10,9 @@ function page() {
     <div className={classes.container}>
       <header className={classes.header}>
         <Navbar />
+        <Video />
       </header>
       <main className={classes.main}>
-        <Video />
         <CardFolder />
       </main>
       <footer className={classes.footer} id='contatti'>

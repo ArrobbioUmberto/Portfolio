@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import classes from './HeroBg.module.css';
-import HeroLoading from '../ui/HeroLoading';
+
 function HeroBg() {
   const text = [
     'Ogni grande viaggio inizia con un piccolo passo.',
@@ -28,7 +28,6 @@ function HeroBg() {
   }, [currentIndex, isLoaded, text.length]);
   return (
     <>
-      {/* {isLoaded ? ( */}
       <div className={classes.container}>
         <div className={classes.title}>
           {text.slice(0, currentIndex).map((line, index) => (
@@ -39,8 +38,6 @@ function HeroBg() {
           ))}
         </div>
       </div>
-      {/* // ) : ( // <HeroLoading />
-      // )} */}
     </>
   );
 }

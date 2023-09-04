@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Anonymous+Pro);
 
 .container {
-  height: 90vh;
+  height: 100vh;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -11,7 +11,7 @@
   font-family: 'Anonymous Pro', monospace;
   width: 32em;
   text-align: center;
-  margin: 5rem auto;
+  margin: 8rem auto;
   color: white;
   font-size: 3.5rem;
   font-weight: bolder;

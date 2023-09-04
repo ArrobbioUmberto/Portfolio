@@ -1,8 +1,14 @@
-import React, { useState } from 'react';
+import React, { useRef, useState } from 'react';
 import classes from './ImageSlider.module.css';
 function ImageSlider(props) {
   const { images } = props;
   const [currentIndex, setCurrentIndex] = useState(0);
+  let hideArrow = true;
+  if (images.length === 1) {
+    hideArrow = false;
+    console.log(hideArrow);
+  }
+
   const prevImage = () => {
     console.log('prev');
     setCurrentIndex((prevIndex) =>
@@ -19,12 +25,16 @@ function ImageSlider(props) {
   return (
     <>
       <img src={images[currentIndex]} alt='ciao' className={classes.img} />
-      <button onClick={prevImage} className={classes.prevButton}>
-        <img src='/images/arrow-prev.svg' className={classes.prevButton} />
-      </button>
-      <button onClick={nextImage}>
-        <img src='/images/arrow-next.svg' className={classes.nextButton} />
-      </button>
+      {hideArrow && (
+        <>
+          <button onClick={prevImage} className={classes.prevButton}>
+            <img src='/images/arrow-prev.svg' className={classes.prevButton} />
+          </button>
+          <button onClick={nextImage}>
+            <img src='/images/arrow-next.svg' className={classes.nextButton} />
+          </button>
+        </>
+      )}
     </>
   );
 }
