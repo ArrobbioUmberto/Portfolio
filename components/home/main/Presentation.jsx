@@ -18,17 +18,19 @@ function Presentation() {
                 Sono uno Junior Full Stack Web Developer
               </h2>
               <p className={classes.text}>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet
-                ratione ullam rerum fugiat dolorum repudiandae sapiente
-                consectetur! Iusto, quibusdam adipisci? Cupiditate dolor beatae
-                animi libero rem ipsam eveniet, molestiae aliquid sequi, maiores
-                tempora magnam expedita voluptatibus provident? Quam, voluptatum
-                reiciendis. Et consequuntur laudantium repudiandae quibusdam
-                exercitationem dolores, earum asperiores possimus adipisci
-                provident eligendi delectus. Ullam amet recusandae possimus
-                nesciunt eaque. Perferendis, repellat quisquam! Eos excepturi,
-                perferendis ducimus in aliquam atque voluptate repudiandae id
-                quaerat error eveniet, asperiores, odit corporis ea?
+                Sono sempre stato un appassionato di tecnologia. Sono in grado
+                di creare siti web responsive e applicazioni web interattive che
+                offrono un'esperienza utente di prima classe. La mia curiosità e
+                la mia sete di apprendimento mi spingono costantemente a
+                rimanere aggiornato sulle ultime tendenze e tecnologie nel mondo
+                dello sviluppo web. Il mio approccio al web development è basato
+                sulla cura dei dettagli e sull'attenzione alla qualità del
+                codice. Mi piace lavorare su progetti che sfidano le mie abilità
+                e mi danno l'opportunità di crescere come sviluppatore. Dalla
+                progettazione dell'interfaccia utente alla gestione del
+                back-end, sono in grado di affrontare ogni aspetto dello
+                sviluppo web. Nel mio portfolio, che terrò aggiornato nel tempo,
+                troverete una selezione dei miei progetti più recenti.
               </p>
             </div>
           </div>
