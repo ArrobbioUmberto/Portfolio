@@ -8,7 +8,7 @@ function Video() {
     //   <source src='/videos/coding.mp4' type='video/mp4' alt='il video' />
     // </video>
     <>
-      <ReactPlayer url='/video/coding.mp4' autoplay height={400} width={400} />
+      <ReactPlayer url='/videos/coding.mp4' autoplay height={400} width={400} />
     </>
   );
 }
