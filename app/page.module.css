@@ -23,3 +23,24 @@
 .section {
   scroll-snap-align: center;
 }
+/* DESKTOP FIRST  */
+
+@media (max-width: 1440px) {
+  .container {
+    scroll-snap-type: y proximity;
+  }
+}
+/* SMALL DESKTOP  */
+@media (max-width: 1200px) {
+}
+/* TABLET  */
+@media (max-width: 992px) {
+}
+
+/* LARGE PHONE  */
+@media (max-width: 768px) {
+}
+
+/* MOBILE PHONE  */
+@media (max-width: 576px) {
+}
