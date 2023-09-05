@@ -13,3 +13,22 @@ a {
 ::-webkit-scrollbar {
   width: 0;
 }
+/* DESKTOP FIRST  */
+
+@media (max-width: 1248px) {
+  body {
+    display: inline-flex;
+  }
+}
+
+/* TABLET  */
+@media (max-width: 992px) {
+}
+
+/* LARGE PHONE  */
+@media (max-width: 768px) {
+}
+
+/* MOBILE PHONE  */
+@media (max-width: 576px) {
+}

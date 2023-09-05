@@ -54,3 +54,20 @@
   color: white;
   text-align: start;
 }
+
+/* DESKTOP FIRST  */
+
+@media (max-width: 1248px) {
+}
+
+/* TABLET  */
+@media (max-width: 992px) {
+}
+
+/* LARGE PHONE  */
+@media (max-width: 768px) {
+}
+
+/* MOBILE PHONE  */
+@media (max-width: 576px) {
+}
