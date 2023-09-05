@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 import classes from './Video.module.css';
-// import filmato from '../../../public/videos/coding.mp4';
+
 function Video() {
   return (
     <video className={classes.video} autoPlay muted loop>
