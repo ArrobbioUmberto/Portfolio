@@ -9,12 +9,12 @@
 
 .title {
   font-family: 'Anonymous Pro', monospace;
-  width: 32em;
+  width: 100%;
   text-align: center;
   margin: 8rem auto;
   color: black;
   text-shadow: -1px 0 #ffffff, 0 1px #ffffff, 1px 0 #ffffff, 0 -1px #ffffff;
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: bolder;
 }
 .animation {
@@ -34,7 +34,7 @@
     width: 0;
   }
   to {
-    width: 32em;
+    width: 100%;
     border-right: none;
   }
 }
@@ -50,18 +50,7 @@
 /* LARGE DESKTOP  */
 @media (max-width: 1400px) {
   .title {
-    font-size: 2.5rem;
-    width: 27em;
-  }
-
-  @keyframes typewriter {
-    from {
-      width: 0;
-    }
-    to {
-      width: 27em;
-      border-right: none;
-    }
+    font-size: 2rem;
   }
 }
 /* SMALL DESKTOP  */

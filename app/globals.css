@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
 }
+
 ul,
 li {
   list-style: none;
@@ -12,9 +13,6 @@ a {
 }
 ::-webkit-scrollbar {
   width: 0;
-}
-body {
-  display: inline-flex;
 }
 
 /* DESKTOP FIRST  */
