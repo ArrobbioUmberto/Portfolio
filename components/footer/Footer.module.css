@@ -11,7 +11,9 @@
   flex-basis: 40%;
   /* background-color: green; */
 }
-
+.text {
+  font-size: 2rem;
+}
 .list {
   display: flex;
   flex-direction: column;
@@ -60,4 +62,25 @@
   100% {
     transform: scale(1, 1);
   }
+}
+/* DESKTOP FIRST  */
+
+@media (max-width: 1440px) {
+  .text {
+    font-size: 1.5rem;
+  }
+}
+/* SMALL DESKTOP  */
+@media (max-width: 1200px) {
+}
+/* TABLET  */
+@media (max-width: 992px) {
+}
+
+/* LARGE PHONE  */
+@media (max-width: 768px) {
+}
+
+/* MOBILE PHONE  */
+@media (max-width: 576px) {
 }

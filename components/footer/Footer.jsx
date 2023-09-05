@@ -32,9 +32,9 @@ function Footer() {
   return (
     <div className={classes.row}>
       <div className={classes.col_40}>
-        <h1>2023 - Made with</h1>
+        <h1 className={classes.text}>2023 - Made with</h1>
         <img src='/images/heart.svg' alt='cuore' className={classes.heart} />
-        <h1> by Umberto Arrobbio</h1>
+        <h1 className={classes.text}> by Umberto Arrobbio</h1>
       </div>
       <div className={classes.col_40}>
         {link.map((item) => (
