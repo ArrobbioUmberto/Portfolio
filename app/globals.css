@@ -13,6 +13,9 @@ a {
 ::-webkit-scrollbar {
   width: 0;
 }
+body {
+  display: inline-flex;
+}
 
 /* DESKTOP FIRST  */
 
