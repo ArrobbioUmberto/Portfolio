@@ -13,14 +13,17 @@ a {
 ::-webkit-scrollbar {
   width: 0;
 }
-/* DESKTOP FIRST  */
-
-@media (max-width: 1248px) {
-  body {
-    display: inline-flex;
-  }
+body {
+  display: inline-flex;
 }
 
+/* DESKTOP FIRST  */
+
+@media (max-width: 1400px) {
+}
+/* SMALL DESKTOP  */
+@media (max-width: 1200px) {
+}
 /* TABLET  */
 @media (max-width: 992px) {
 }

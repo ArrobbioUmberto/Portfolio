@@ -57,9 +57,11 @@
 
 /* DESKTOP FIRST  */
 
-@media (max-width: 1248px) {
+@media (max-width: 1400px) {
 }
-
+/* SMALL DESKTOP  */
+@media (max-width: 1200px) {
+}
 /* TABLET  */
 @media (max-width: 992px) {
 }
