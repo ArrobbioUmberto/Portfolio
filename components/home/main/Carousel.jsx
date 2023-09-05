@@ -18,7 +18,7 @@ function Try() {
     {
       title: 'whatsapp',
       id: 2,
-      img: '/progetti/mono/whatsapp.png',
+      img: '/progetti/mono/whatsapp-1.png',
     },
     {
       title: 'spotify',
