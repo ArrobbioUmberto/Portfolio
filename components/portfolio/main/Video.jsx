@@ -1,7 +1,6 @@
 'use client';
 import React from 'react';
 import classes from './Video.module.css';
-
 function Video() {
   return (
     <video className={classes.video} autoPlay muted loop>
