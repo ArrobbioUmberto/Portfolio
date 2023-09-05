@@ -1,5 +1,4 @@
 import React from 'react';
-// import classes from './CardFolder.module.css';
 import Card from '@/components/ui/Card';
 function CardFolder() {
   const projects = [
