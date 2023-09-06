@@ -9,13 +9,13 @@ function page() {
   return (
     <div className={classes.container}>
       <header className={classes.header}>
-        <Navbar />
+        <Navbar contattiRef={contattiRef} />
         <Video />
       </header>
       <main className={classes.main}>
         <CardFolder />
       </main>
-      <footer className={classes.footer} id='contatti'>
+      <footer className={classes.footer} ref={contattiRef} id='contatti'>
         <Footer />
       </footer>
     </div>
