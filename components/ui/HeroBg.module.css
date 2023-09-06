@@ -23,11 +23,11 @@
   padding: 5px;
   overflow: hidden;
   white-space: nowrap;
-  animation: typewriter 4s steps(44) forwards,
+  animation: typewriter 3s steps(44) forwards,
     blinkTextCursor 500ms steps(44) infinite normal;
 }
 .animation span:not(:nth-child(0)) {
-  animation-delay: 4s;
+  animation-delay: 2s;
 }
 @keyframes typewriter {
   from {
