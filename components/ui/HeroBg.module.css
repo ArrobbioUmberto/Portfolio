@@ -48,22 +48,31 @@
 }
 /* DESKTOP FIRST  */
 /* LARGE DESKTOP  */
-@media (max-width: 1400px) {
+@media (max-width: 1440px) {
   .title {
     font-size: 2rem;
   }
 }
 /* SMALL DESKTOP  */
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
 }
 /* TABLET  */
 @media (max-width: 768px) {
+  .title {
+    font-size: 1.5rem;
+  }
 }
-
+@media (max-width: 576px) {
+  .title {
+    font-size: 1rem;
+    margin: 60% auto;
+  }
+}
 /* LARGE PHONE  */
 @media (max-width: 425px) {
   .title {
-    font-size: 0.8rem;
+    font-size: 0.3rem;
+    margin: 0 auto;
   }
 }
 

@@ -22,3 +22,33 @@
 .item:hover {
   text-decoration: underline;
 }
+
+/* DESKTOP FIRST  */
+/* LARGE DESKTOP  */
+@media (max-width: 1440px) {
+  .title {
+    font-size: 2rem;
+  }
+}
+/* SMALL DESKTOP  */
+@media (max-width: 1024px) {
+}
+/* TABLET  */
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  .navbar {
+    margin: 40px 0;
+  }
+}
+/* LARGE PHONE  */
+@media (max-width: 425px) {
+}
+
+/* MEDIUM PHONE  */
+@media (max-width: 375px) {
+}
+
+/* SMALL PHONE  */
+@media (max-width: 320px) {
+}
