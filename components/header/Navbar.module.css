@@ -40,6 +40,9 @@
   .navbar {
     margin: 40px 0;
   }
+  .item {
+    font-size: 1.5rem;
+  }
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
@@ -47,8 +50,17 @@
 
 /* MEDIUM PHONE  */
 @media (max-width: 375px) {
+  .list {
+    gap: 1rem;
+  }
+  .item {
+    font-size: 1.2rem;
+  }
 }
 
 /* SMALL PHONE  */
 @media (max-width: 320px) {
+  .item {
+    font-size: 1rem;
+  }
 }
