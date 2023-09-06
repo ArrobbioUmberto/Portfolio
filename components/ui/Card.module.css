@@ -50,7 +50,14 @@
   }
 }
 /* SMALL DESKTOP  */
-@media (max-width: 1200px) {
+@media (max-width: 1024px) {
+  .row {
+    gap: 3rem;
+  }
+  .logo {
+    width: 30px;
+    height: 30px;
+  }
 }
 /* TABLET  */
 @media (max-width: 992px) {
