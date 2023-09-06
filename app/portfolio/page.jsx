@@ -1,11 +1,13 @@
 'use client';
 import Navbar from '@/components/header/Navbar';
 import Footer from '@/components/footer/Footer';
-import React from 'react';
+
 import classes from './page.module.css';
 import Video from '@/components/portfolio/main/Video';
 import CardFolder from '@/components/portfolio/main/CardFolder';
+import React, { useRef } from 'react';
 function page() {
+  const contattiRef = useRef(null);
   return (
     <div className={classes.container}>
       <header className={classes.header}>
