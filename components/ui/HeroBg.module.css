@@ -57,13 +57,20 @@
 @media (max-width: 1200px) {
 }
 /* TABLET  */
-@media (max-width: 992px) {
-}
-
-/* LARGE PHONE  */
 @media (max-width: 768px) {
 }
 
-/* MOBILE PHONE  */
-@media (max-width: 576px) {
+/* LARGE PHONE  */
+@media (max-width: 425px) {
+  .title {
+    font-size: 0.8rem;
+  }
+}
+
+/* MEDIUM PHONE  */
+@media (max-width: 375px) {
+}
+
+/* SMALL PHONE  */
+@media (max-width: 320px) {
 }
