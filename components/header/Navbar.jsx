@@ -2,7 +2,10 @@
 import Link from 'next/link';
 import React from 'react';
 import classes from './Navbar.module.css';
-function Navbar() {
+function Navbar({ contattiRef }) {
+  const executeScroll = () => {
+    contattiRef.current.scrollIntoView({ behavior: 'smooth' });
+  };
   return (
     <nav className={classes.navbar}>
       <ul className={classes.list}>
@@ -17,7 +20,7 @@ function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href={'#contatti'} className={classes.item}>
+          <Link href={'#'} className={classes.item} onClick={executeScroll}>
             Contattami
           </Link>
         </li>

@@ -51,11 +51,6 @@ function Footer() {
             />
           </a>
         ))}
-
-        {/* <Image src={google} alt='google' className={classes.google} />
-
-        <Image src={github} alt='github' className={classes.github} />
-        <Image src={curricula} alt='curricula' className={classes.curricula} /> */}
       </div>
     </div>
   );
