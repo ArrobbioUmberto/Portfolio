@@ -14,14 +14,6 @@
 .text {
   font-size: 2rem;
 }
-.list {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
-.item {
-  font-weight: bold;
-}
 .link {
   display: flex;
   align-items: center;
@@ -40,8 +32,7 @@
 .github {
   filter: invert(1);
 }
-/* .curricula {
-} */
+
 .google:hover,
 .github:hover,
 .linkedin:hover,
@@ -73,17 +64,17 @@
 /* SMALL DESKTOP  */
 @media (max-width: 1024px) {
   .text {
-    font-size: 1rem;
+    font-size: 0.7rem;
   }
   @keyframes bump {
     0% {
-      transform: scale(1, 1);
+      transform: scale(0.8, 0.8);
     }
     50% {
-      transform: scale(1.2, 1.2);
+      transform: scale(1, 1);
     }
     100% {
-      transform: scale(1, 1);
+      transform: scale(0.8, 0.8);
     }
   }
 }
@@ -98,14 +89,33 @@
   height: 3.5rem;
  }
  .text{
-  font-size: 0.7rem;
+  font-size: 0.6rem;
  }
  .col_40{
   flex-basis: 50%;
 }
+.google,
+.github,
+.linkedin,
+.curricula {
+  width: 80%;
+  height: 80%;
+}
 }
 @media (max-width: 576px) {
-  
+  .link{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem;
+  }
+  .heart{
+    width: 4rem;
+    height: 3rem;
+  }
+  .row{
+    flex-direction: column;
+    height: 100%;
+  }
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
