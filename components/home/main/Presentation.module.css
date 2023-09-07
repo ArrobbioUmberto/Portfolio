@@ -77,14 +77,45 @@
     height: 75%;
   }
 }
+
+
 /* TABLET  */
 @media (max-width: 992px) {
 }
-
-/* LARGE PHONE  */
 @media (max-width: 768px) {
+ .col_4{
+  height: 100%;
+ }
+ .img{
+  width: 90%;
+ }
+ .title{
+  font-size: 1.7rem;
+ }
+ .subtitle{
+  font-size: 1.2rem;
+ }
+ .text{
+  font-size: 0.9rem;
+ }
+}
+@media (max-width: 576px) {
+  
+}
+/* LARGE PHONE  */
+@media (max-width: 425px) {
+  
 }
 
-/* MOBILE PHONE  */
-@media (max-width: 576px) {
+/* MEDIUM PHONE  */
+@media (max-width: 400px) {
+ 
+}
+@media (max-width: 375px) {
+  
+}
+
+/* SMALL PHONE  */
+@media (max-width: 320px) {
+ 
 }
