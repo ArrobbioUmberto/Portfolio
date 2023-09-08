@@ -18,7 +18,7 @@
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
+  
   width: 100%;
 }
 
@@ -49,6 +49,9 @@
   }
 }
 @media (max-width: 576px) {
+  .container{
+    height: calc(var(--vh, 1vh) * 100);
+  }
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
