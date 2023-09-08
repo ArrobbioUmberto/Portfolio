@@ -9,6 +9,13 @@ import LogoLanguage from '@/components/home/main/LogoLanguage';
 import React, { useRef } from 'react';
 export default function Home() {
   const contattiRef = useRef(null);
+  useEffect(() => {
+    // Calcola l'altezza del viewport in unità vh
+    const vh = window.innerHeight * 0.01;
+
+    // Imposta il valore nella variabile CSS personalizzata --vh
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+  }, [])
   return (
     <div className={classes.container}>
       <section className={classes.section}>
