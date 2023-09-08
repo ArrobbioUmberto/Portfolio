@@ -63,12 +63,12 @@ function LogoLanguage() {
       <div className='wrapper'>
         <div className='slide slide_primary'>
           {logos.map((item) => (
-            <img key={item.id} src={item.src} className='logo-img' />
+            <img key={item.id} src={item.src} className='logo-img'alt='logo' />
           ))}
         </div>
         <div className='slide slide_secondary'>
           {logos.map((item) => (
-            <img key={item.id} src={item.src} className='logo-img' />
+            <img key={item.id} src={item.src} className='logo-img' alt='logo' />
           ))}
         </div>
       </div>
