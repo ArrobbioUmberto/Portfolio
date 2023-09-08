@@ -42,6 +42,7 @@
 @media (max-width: 576px) {
   .img{
     height: 250px;
+    width: 90%;
   }
 }
 /* LARGE PHONE  */
@@ -56,13 +57,20 @@
 @media (max-width: 400px) {
  .img{
   height: 150px;
+  width: 80%;
  }
 }
 @media (max-width: 375px) {
-  
+  .img{
+    height: 150px;
+    width: 80%;
+   }
 }
 
 /* SMALL PHONE  */
 @media (max-width: 320px) {
- 
+  .img{
+    height: 150px;
+    width: 80%;
+   }
 }
