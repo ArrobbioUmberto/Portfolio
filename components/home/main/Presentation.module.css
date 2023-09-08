@@ -168,9 +168,7 @@
 
 /* MEDIUM PHONE  */
 @media (max-width: 400px) {
- .img{
-  aspect-ratio: 1;
- }
+
  .title{
   font-size: 1.5rem;
  }
