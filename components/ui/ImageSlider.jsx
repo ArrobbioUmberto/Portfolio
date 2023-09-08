@@ -45,7 +45,7 @@ function ImageSlider(props) {
     };
   }, []);
   return (
-    <>
+    <div>
       <img ref={imgRef} src={imageVisible? images[currentIndex]: '/social/loading.svg'} alt='ciao' className={classes.img} />
       {hideArrow && (
         <>
@@ -57,7 +57,7 @@ function ImageSlider(props) {
           </button>
         </>
       )}
-    </>
+    </div>
   );
 }
 
