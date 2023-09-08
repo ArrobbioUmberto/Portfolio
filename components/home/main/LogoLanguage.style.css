@@ -104,8 +104,7 @@
 }
 @media (max-width: 576px) {
   .logo-img{
-    width: 1.2rem;
-    height: 1.2rem;
+    aspect-ratio: 1;
   }
   .slide_secondary{
     display: none;

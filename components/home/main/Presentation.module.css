@@ -23,6 +23,20 @@
   padding: 40px 0;
   justify-content: center;
 }
+.mobile{
+  display: none;
+  flex-direction: column;
+}
+.text_logo{
+  font-size: 1.5rem;
+}
+.wrapper_logo{
+  display: flex;
+}
+.logo {
+  width: 80px;
+  height: 80px;
+}
 .img {
   box-shadow: 10px 10px 5px rgb(11, 75, 98);
   border-radius: 25px;
