@@ -1,5 +1,5 @@
 'use client';
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState,useEffect } from 'react';
 // import classes from './Try.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './Carousel.style.css';
@@ -41,6 +41,28 @@ function Try() {
       img: '/progetti/everlead/everlead-1.png',
     },
   ];
+  const imgRef = useRef(null);
+  const [imageVisible, setImageVisible] = useState(false);
+  useEffect(() => {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          setImageVisible(true);
+          observer.disconnect(); // Smetti di osservare l'elemento una volta che è visibile.
+        }
+      });
+    });
+
+    if (imgRef.current) {
+      observer.observe(imgRef.current);
+    }
+
+    return () => {
+      if (imgRef.current) {
+        observer.unobserve(imgRef.current);
+      }
+    };
+  }, []);
   return (
     <>
       <h1 className='title'>Ecco alcuni dei miei progetti </h1>
@@ -68,7 +90,7 @@ function Try() {
         {images.map((item) => (
           <SwiperSlide key={item.id}>
             <a href='/portfolio'>
-              <img src={item.img} alt='foto' />
+              <img ref={imgRef} src={imageVisible? item.img :''} alt='foto' />
             </a>
           </SwiperSlide>
         ))}
