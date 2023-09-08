@@ -57,12 +57,9 @@
 /* DESKTOP FIRST  */
 
 @media (max-width: 1440px) {
- 
-  .text{
-    font-size: 1.2rem;
+  .text {
+    font-size: 1.5rem;
   }
-}
-@media(max-width:1200px){
 }
 /* SMALL DESKTOP  */
 @media (max-width: 1024px) {

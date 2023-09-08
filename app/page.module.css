@@ -20,12 +20,17 @@
   height: 100vh;
   width: 100%;
 }
+
 .section {
   scroll-snap-align: center;
 }
 /* DESKTOP FIRST  */
 
 @media (max-width: 1400px) {
+  .container{
+    overscroll-behavior-y: none;
+    scroll-behavior: unset;
+  }
 }
 /* SMALL DESKTOP  */
 @media (max-width: 1024px) {
