@@ -65,24 +65,24 @@
  .swiper-slide img{
   height: 60%;
  }
- .swiper{
-   padding-top: 30px  !important;
-   padding-bottom: 30px  !important;
- }
- .swiper-button-prev,
- .swiper-button-next{
- display: none !important;
- }
- .swiper-button-prev:after,
- .swiper-button-next:after{
- display: none;
- }
 }
 @media (max-width: 576px) {
   .title{
     font-size: 2rem;
     padding: 2rem;
   }
+  .swiper{
+    padding-top: 30px  !important;
+    padding-bottom: 30px  !important;
+  }
+  .swiper-button-prev,
+.swiper-button-next{
+  display: none !important;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after{
+  display: none;
+}
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
