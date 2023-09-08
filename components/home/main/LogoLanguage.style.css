@@ -103,20 +103,7 @@
 }
 }
 @media (max-width: 576px) {
-  .logo-img{
-    aspect-ratio: 1;
-  }
-  .slide_secondary{
-    display: none;
-  }
-  .slide_primary{
-    animation: none;
-  }
-  .wrapper{
-    width: 100%;
-  }
-  .wrapper:before,
-.wrapper:after{
+.container{
   display: none;
 }
 }
@@ -127,20 +114,11 @@
 
 /* MEDIUM PHONE  */
 @media (max-width: 400px) {
- .container{
-  height: 5vh;
- }
- .logo-img{
-  width: 0.8rem;
-  height: 0.8rem;
- }
+
 
 }
 @media (max-width: 375px) {
-  .logo-img{
-    width: 0.5rem;
-    height: 0.5rem;
-  }
+  
 }
 
 /* SMALL PHONE  */
