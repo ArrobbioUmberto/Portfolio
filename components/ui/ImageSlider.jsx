@@ -50,10 +50,10 @@ function ImageSlider(props) {
       {hideArrow && (
         <>
           <button onClick={prevImage} className={classes.button}>
-            <img src='/images/arrow-prev.svg' className={classes.prevButton} />
+            <img src='/images/arrow-prev.svg' className={classes.prevButton} alt='bottoni' />
           </button>
           <button onClick={nextImage} className={classes.button}>
-            <img src='/images/arrow-next.svg' className={classes.nextButton} />
+            <img src='/images/arrow-next.svg' className={classes.nextButton} alt='bottoni' />
           </button>
         </>
       )}
