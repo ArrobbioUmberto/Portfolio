@@ -87,16 +87,15 @@
     height: 90vh;
   }
   .row{
-  flex-direction: column;
-  height: 100%;
+  flex-direction: column-reverse;
   }
   .col_6{
     padding: 0;
+    flex-basis: 50%;
   }
  .col_4{
   height: 100%;
-  
-  padding: 1rem 0 0 0;
+  flex-basis: 50%;
  }
  .img{
   width: 100%;
@@ -109,6 +108,7 @@
   font-size: 1.2rem;
  }
  .text{
+  padding: 0.7rem 1.5rem;
   font-size: 0.9rem;
   line-height: 1rem;
  }
@@ -125,7 +125,9 @@
 
 /* MEDIUM PHONE  */
 @media (max-width: 400px) {
- 
+ .img{
+  aspect-ratio: 1;
+ }
  .title{
   font-size: 1.5rem;
  }
@@ -141,9 +143,10 @@ padding: 0;
  }
 }
 @media (max-width: 375px) {
-  .col_4{
-    padding: 0.5rem 0 0 0 ;
+  .col_6{
+    flex-basis: 50%;
   }
+  .col_4{padding: 0;}
   .img{
     width: 75%;
     border-radius: 30%;
