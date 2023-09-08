@@ -90,7 +90,7 @@ function Try() {
         {images.map((item) => (
           <SwiperSlide key={item.id}>
             <a href='/portfolio'>
-              <img ref={imgRef} src={imageVisible? item.img :''} alt='foto' />
+              <img ref={imgRef} src={imageVisible? item.img :''} alt='foto' loading="lazy" />
             </a>
           </SwiperSlide>
         ))}
