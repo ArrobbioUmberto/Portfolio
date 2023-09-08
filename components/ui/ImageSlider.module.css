@@ -50,10 +50,7 @@
 @media (max-width: 425px) {
   .img{
     height: 200px;
-    width: 80%;
-  }
-  .wrapper{
-    display: contents;
+    width: 100%
   }
 }
 
@@ -61,13 +58,13 @@
 @media (max-width: 400px) {
  .img{
   height: 150px;
-  width: 80%;
+  ;
  }
 }
 @media (max-width: 375px) {
   .img{
     height: 150px;
-    width: 80%;
+   
    }
 }
 
