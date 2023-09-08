@@ -4,8 +4,8 @@ import classes from './Card.module.css';
 function Card(props) {
   const { project } = props;
   const logos = [project];
-  console.log(logos, 'logos');
-  console.log(logos[0].id, 'try');
+  // console.log(logos, 'logos');
+  // console.log(logos[0].id, 'try');
   // console.log(props, 'props');
 
   return (

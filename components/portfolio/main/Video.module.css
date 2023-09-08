@@ -3,3 +3,30 @@
   width: 100vw;
   object-fit: cover;
 }
+@media (max-width: 768px) {
+
+}
+@media (max-width: 576px) {
+.video{
+  height: 50vh;
+}
+}
+/* LARGE PHONE  */
+@media (max-width: 425px) {
+  .video{
+    height: 30vh;
+  }
+}
+
+/* MEDIUM PHONE  */
+@media (max-width: 400px) {
+ 
+}
+@media (max-width: 375px) {
+  
+}
+
+/* SMALL PHONE  */
+@media (max-width: 320px) {
+ 
+}

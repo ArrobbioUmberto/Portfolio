@@ -113,6 +113,9 @@
   .slide_primary{
     animation: none;
   }
+  .wrapper{
+    width: 100%;
+  }
   .wrapper:before,
 .wrapper:after{
   display: none;
@@ -125,10 +128,25 @@
 
 /* MEDIUM PHONE  */
 @media (max-width: 400px) {
- 
+ .container{
+  height: 5vh;
+ }
+ .logo-img{
+  width: 0.8rem;
+  height: 0.8rem;
+ }
+ /* .slide_secondary{
+  display: flex;
+}
+.slide_primary{
+  animation: primary 55s linear infinite;
+} */
 }
 @media (max-width: 375px) {
-  
+  .logo-img{
+    width: 0.5rem;
+    height: 0.5rem;
+  }
 }
 
 /* SMALL PHONE  */

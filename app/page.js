@@ -22,7 +22,7 @@ export default function Home() {
           <Presentation />
           <LogoLanguage />
         </section>
-        <section className={classes.section}>
+        <section className={`${classes.section} ${classes.carousel}`}>
           <Carousel />
         </section>
       </main>

@@ -40,7 +40,9 @@
 
 }
 @media (max-width: 576px) {
-  
+  .carousel{
+    display: none;
+  }
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {

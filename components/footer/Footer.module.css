@@ -103,6 +103,7 @@
 }
 }
 @media (max-width: 576px) {
+  
   .link{
     width: 2.5rem;
     height: 2.5rem;
@@ -116,10 +117,15 @@
     flex-direction: column;
     height: 100%;
   }
+  .text{
+    font-size: 1rem;
+  }
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
-  
+  .text{
+    font-size: 0.7rem;
+  }
 }
 
 /* MEDIUM PHONE  */

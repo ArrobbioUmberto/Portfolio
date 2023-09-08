@@ -114,7 +114,9 @@
  }
 }
 @media (max-width: 576px) {
-  
+  .text{
+    font-size: 0.7rem;
+  }
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
@@ -124,9 +126,28 @@
 /* MEDIUM PHONE  */
 @media (max-width: 400px) {
  
+ .title{
+  font-size: 1.5rem;
+ }
+ .subtitle{
+font-size:1rem;
+padding: 0;
+ }
+ .text{
+  font-size: 0.7rem;
+ }
+ .container{
+  height: 95vh;
+ }
 }
 @media (max-width: 375px) {
-  
+  .col_4{
+    padding: 0.5rem 0 0 0 ;
+  }
+  .img{
+    width: 75%;
+    border-radius: 30%;
+  }
 }
 
 /* SMALL PHONE  */
