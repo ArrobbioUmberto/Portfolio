@@ -6,7 +6,7 @@ import Hero from '@/components/home/main/Hero';
 import Presentation from '@/components/home/main/Presentation';
 import Carousel from '@/components/home/main/Carousel';
 import LogoLanguage from '@/components/home/main/LogoLanguage';
-import React, { useRef } from 'react';
+import React, { useRef,useEffect } from 'react';
 export default function Home() {
   const contattiRef = useRef(null);
   useEffect(() => {
