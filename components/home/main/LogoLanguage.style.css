@@ -135,12 +135,7 @@
   width: 0.8rem;
   height: 0.8rem;
  }
- /* .slide_secondary{
-  display: flex;
-}
-.slide_primary{
-  animation: primary 55s linear infinite;
-} */
+
 }
 @media (max-width: 375px) {
   .logo-img{
