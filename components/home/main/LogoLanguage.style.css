@@ -99,7 +99,7 @@
  }
  .wrapper:before,
 .wrapper:after {
-  width: 150px;
+  width: 100px;
 }
 }
 @media (max-width: 576px) {
