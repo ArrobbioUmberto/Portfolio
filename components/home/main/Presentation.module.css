@@ -135,6 +135,7 @@
   }
   .row{
     flex-direction: column;
+    height: 100vh;
   }
   .col_4{
     margin: 20px;
@@ -170,17 +171,23 @@
 @media (max-width: 400px) {
 
  .title{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
  }
  .subtitle{
-font-size:1rem;
+font-size:0.8rem;
 padding: 0;
  }
  .text{
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  padding: 0.2rem 0.5rem;
  }
  .container{
   height: 95vh;
+ }
+ .col_6{
+  width: 100%;
+  height: auto;
+  align-items: baseline;
  }
 }
 @media (max-width: 375px) {

@@ -51,9 +51,7 @@
   .container{
     height: calc(var(--vh, 1vh) * 100);
   }
-  .section{
-    overflow-y: scroll;
-  }
+  
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
