@@ -11,13 +11,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  background-image: linear-gradient(
-    0deg,
-    hsl(0deg 0% 0%) 0%,
-    hsl(0deg 0% 41%) 33%,
-    hsl(0deg 0% 41%) 67%,
-    hsl(0deg 0% 0%) 100%
-  );
+  background-color: rgb(16, 16, 26);
 }
 
 .container {
@@ -27,48 +21,40 @@
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
   height: 100vh;
- 
+
   width: 100%;
 }
 /* DESKTOP FIRST  */
 
 @media (max-width: 1400px) {
- 
 }
 /* SMALL DESKTOP  */
 @media (max-width: 1024px) {
- 
 }
-
 
 /* TABLET  */
 @media (max-width: 992px) {
 }
 @media (max-width: 768px) {
-
-  .carousel{
+  .carousel {
     display: none;
   }
 }
 @media (max-width: 576px) {
-  .container{
+  .container {
     height: calc(var(--vh, 1vh) * 100);
   }
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
-  
 }
 
 /* MEDIUM PHONE  */
 @media (max-width: 400px) {
- 
 }
 @media (max-width: 375px) {
-  
 }
 
 /* SMALL PHONE  */
 @media (max-width: 320px) {
- 
 }

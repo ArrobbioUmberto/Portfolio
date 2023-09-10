@@ -2,7 +2,7 @@
   width: 100%;
   padding-top: 50px !important;
   padding-bottom: 50px !important;
-  background: linear-gradient(gray, black);
+  background-color: rgb(16, 16, 26);
 }
 
 .swiper-slide {
@@ -19,7 +19,7 @@
   border-radius: 25px;
 }
 .title {
-  background-color: gray;
+  background-color: rgb(16, 16, 26);
   color: white;
   text-align: center;
   font-size: 5rem;
@@ -58,46 +58,42 @@
 @media (max-width: 992px) {
 }
 @media (max-width: 768px) {
- .title{
-  font-size: 2.5rem;
-  padding-top: 2.5rem;
- }
- .swiper-slide img{
-  height: 60%;
- }
+  .title {
+    font-size: 2.5rem;
+    padding-top: 2.5rem;
+  }
+  .swiper-slide img {
+    height: 60%;
+  }
 }
 @media (max-width: 576px) {
-  .title{
+  .title {
     font-size: 2rem;
     padding: 2rem;
   }
-  .swiper{
-    padding-top: 30px  !important;
-    padding-bottom: 30px  !important;
+  .swiper {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
   }
   .swiper-button-prev,
-.swiper-button-next{
-  display: none !important;
-}
-.swiper-button-prev:after,
-.swiper-button-next:after{
-  display: none;
-}
+  .swiper-button-next {
+    display: none !important;
+  }
+  .swiper-button-prev:after,
+  .swiper-button-next:after {
+    display: none;
+  }
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
-  
 }
 
 /* MEDIUM PHONE  */
 @media (max-width: 400px) {
- 
 }
 @media (max-width: 375px) {
-  
 }
 
 /* SMALL PHONE  */
 @media (max-width: 320px) {
- 
 }

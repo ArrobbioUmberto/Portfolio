@@ -6,7 +6,7 @@ import Hero from '@/components/home/main/Hero';
 import Presentation from '@/components/home/main/Presentation';
 import Carousel from '@/components/home/main/Carousel';
 import LogoLanguage from '@/components/home/main/LogoLanguage';
-import React, { useRef,useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 export default function Home() {
   const contattiRef = useRef(null);
   useEffect(() => {
@@ -15,7 +15,7 @@ export default function Home() {
 
     // Imposta il valore nella variabile CSS personalizzata --vh
     document.documentElement.style.setProperty('--vh', `${vh}px`);
-  }, [])
+  }, []);
   return (
     <div className={classes.container}>
       <section className={classes.section}>
@@ -24,7 +24,7 @@ export default function Home() {
           <Hero />
         </header>
       </section>
-      <main>
+      <main className={classes.main}>
         <section className={classes.section}>
           <Presentation />
           <LogoLanguage />
