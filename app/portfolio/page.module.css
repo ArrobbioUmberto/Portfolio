@@ -20,7 +20,7 @@
   overscroll-behavior-y: contain;
   scroll-snap-type: y mandatory;
   scroll-behavior: smooth;
-  min-height: 100vh;
+  height: 100vh;
 
   width: 100%;
 }
@@ -34,6 +34,9 @@
 
 /* TABLET  */
 @media (max-width: 992px) {
+  .container {
+    min-height: 100vh;
+  }
 }
 @media (max-width: 768px) {
   .carousel {
@@ -47,6 +50,10 @@
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
+  .container {
+    height: 100vh;
+    min-height: unset;
+  }
 }
 
 /* MEDIUM PHONE  */
