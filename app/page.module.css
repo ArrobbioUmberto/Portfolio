@@ -4,6 +4,8 @@
   background-image: url('../public/images/sfondo.webp');
   background-size: cover;
   background-repeat: no-repeat;
+  background-origin: content-box;
+  background-clip: content-box;
 }
 
 .footer {
