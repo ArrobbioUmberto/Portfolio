@@ -1,5 +1,5 @@
 'use client';
-import React, { useRef, useState,useEffect } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 // import classes from './Try.module.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import './Carousel.style.css';
@@ -90,7 +90,11 @@ function Try() {
         {images.map((item) => (
           <SwiperSlide key={item.id}>
             <a href='/portfolio'>
-              <img ref={imgRef} src={imageVisible? item.img :'/social/loading.svg'} alt='foto' loading="lazy" />
+              <img
+                ref={imgRef}
+                src={imageVisible ? item.img : '/social/loading.svg'}
+                alt='foto'
+              />
             </a>
           </SwiperSlide>
         ))}
