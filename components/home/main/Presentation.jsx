@@ -79,6 +79,7 @@ function Presentation() {
                     src={item.src}
                     key={item.id}
                     alt={item.name}
+                    loading='lazy'
                   ></img>
                 ))}
               </div>

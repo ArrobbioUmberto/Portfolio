@@ -48,6 +48,7 @@ function Footer() {
               src={item.src}
               alt={item.name}
               className={classes[item.name]}
+              loading='lazy'
             />
           </a>
         ))}
