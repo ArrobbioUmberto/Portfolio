@@ -34,6 +34,9 @@
     overscroll-behavior-y: none;
     scroll-behavior: unset;
   }
+  .header {
+    background-image: url('../public/images/sfondo-desktop-1400.jpeg');
+  }
 }
 /* SMALL DESKTOP  */
 @media (max-width: 1024px) {
@@ -41,6 +44,9 @@
 
 /* TABLET  */
 @media (max-width: 992px) {
+  .header {
+    background-image: url('../public/images/sfondo-desktop-tablet.jpeg');
+  }
 }
 @media (max-width: 768px) {
   .carousel {
@@ -58,6 +64,9 @@
 
 /* MEDIUM PHONE  */
 @media (max-width: 400px) {
+  .header {
+    background-image: url('../public/images/sfondo-desktop-mobile.jpeg');
+  }
 }
 @media (max-width: 375px) {
 }
