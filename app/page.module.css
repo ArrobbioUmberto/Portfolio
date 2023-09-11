@@ -43,11 +43,11 @@
   .carousel {
     display: none;
   }
-}
-@media (max-width: 576px) {
   .container {
     height: calc(var(--vh, 1vh) * 100);
   }
+}
+@media (max-width: 576px) {
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
