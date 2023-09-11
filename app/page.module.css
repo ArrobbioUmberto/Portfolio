@@ -52,14 +52,14 @@
   .carousel {
     display: none;
   }
-  .container {
-    height: calc(var(--vh, 1vh) * 100);
-  }
 }
 @media (max-width: 576px) {
 }
 /* LARGE PHONE  */
 @media (max-width: 425px) {
+  .container {
+    height: calc(var(--vh, 1vh) * 100);
+  }
 }
 
 /* MEDIUM PHONE  */
