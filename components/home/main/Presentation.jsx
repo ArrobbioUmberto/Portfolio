@@ -61,17 +61,26 @@ function Presentation() {
       src: '/languages/nextjs.svg',
     },
   ];
-  
+
   return (
     <Fragment>
       <div className={classes.container}>
         <div className={classes.row}>
           <div className={classes.col_4}>
             <Image src={CV} alt='foto cv' className={classes.img} />
-            <div className={classes.mobile} >
-              <h2 className={classes.text_logo}>Linguaggi di programmazione e di mark-up</h2>
+            <div className={classes.mobile}>
+              <h2 className={classes.text_logo}>
+                Linguaggi di programmazione e di mark-up che conosco
+              </h2>
               <div className={classes.wrapper_logo}>
-              {logos.map((item)=><img className={classes.logo} src={item.src} key={item.id} alt={item.name}></img>)}
+                {logos.map((item) => (
+                  <img
+                    className={classes.logo}
+                    src={item.src}
+                    key={item.id}
+                    alt={item.name}
+                  ></img>
+                ))}
               </div>
             </div>
           </div>

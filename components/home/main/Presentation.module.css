@@ -167,6 +167,9 @@
 
 /* MEDIUM PHONE  */
 @media (max-width: 400px) {
+  .text_logo {
+    font-size: 0.9rem;
+  }
   .title {
     font-size: 1.2rem;
   }
