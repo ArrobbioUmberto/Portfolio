@@ -21,7 +21,7 @@ function HeroBg() {
     if (isLoaded && currentIndex < text.length) {
       const timeout = setTimeout(() => {
         setCurrentIndex(currentIndex + 1);
-      }, 4000); // Delay in milliseconds for each line
+      }, 2000); // Delay in milliseconds for each line
 
       return () => clearTimeout(timeout);
     }
