@@ -6,7 +6,7 @@ function CardFolder() {
       id: 1,
       name: 'whatsapp',
       link: 'https://github.com/ArrobbioUmberto',
-      img: ['/progetti/mono/whatsapp-1.png'],
+      img: ['/progetti/mono/whatsapp-1.webp'],
       logo: [
         '/languages/html5.svg',
         '/languages/css3.svg',
@@ -29,7 +29,7 @@ function CardFolder() {
         '/languages/vuejs.svg',
       ],
       img: [
-        '/progetti/dc-comics/dc-comics-1.png',
+        '/progetti/dc-comics/dc-comics-1.webp',
         '/progetti/dc-comics/dc-comics-2.png',
         '/progetti/dc-comics/dc-comics-3.png',
       ],
