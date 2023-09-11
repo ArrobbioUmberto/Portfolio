@@ -52,7 +52,7 @@
 /* LARGE PHONE  */
 @media (max-width: 425px) {
   .container {
-    min-height: 100%;
+    min-height: 100vh;
   }
 }
 
