@@ -142,6 +142,7 @@
   }
   .container {
     height: 100%;
+    display: flex;
   }
 
   .mobile {
@@ -181,9 +182,7 @@
     font-size: 0.6rem;
     padding: 1.5rem;
   }
-  .container {
-    height: 95vh;
-  }
+
   .col_6 {
     width: 100%;
     height: auto;

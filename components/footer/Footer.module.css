@@ -2,7 +2,6 @@
   display: flex;
   justify-content: space-around;
   height: 10vh;
-  background-color: rgb(16, 16, 26);
 }
 .col_40 {
   display: flex;
