@@ -70,7 +70,7 @@ function Presentation() {
             <Image src={CV} alt='foto cv' className={classes.img} />
             <div className={classes.mobile}>
               <h2 className={classes.text_logo}>
-                Linguaggi di programmazione e di mark-up che conosco
+                Linguaggi di programmazione e di mark-up
               </h2>
               <div className={classes.wrapper_logo}>
                 {logos.map((item) => (
